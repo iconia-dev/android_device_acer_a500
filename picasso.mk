@@ -49,7 +49,8 @@ DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 PRODUCT_PACKAGES += \
     com.android.future.usb.accessory \
     audio.a2dp.default \
-    libaudioutils
+    libaudioutils \
+    audio.primary.picasso
 
 $(call inherit-product, build/target/product/full_base.mk)
 
