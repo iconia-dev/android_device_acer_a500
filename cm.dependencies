@@ -1,0 +1,6 @@
+[
+    {
+        "repository": "android_device_acer_t20-common",
+        "target_path": "device/acer/t20-common"
+    }
+]
