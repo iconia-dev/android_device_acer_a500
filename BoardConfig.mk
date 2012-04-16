@@ -15,7 +15,7 @@
 #
 
 # include acer t20 common
--include device/acer/t20-common/BoardConfigCommon.mk
+include device/acer/t20-common/BoardConfigCommon.mk
 
 TARGET_BOOTLOADER_BOARD_NAME := picasso
 TARGET_NO_BOOTLOADER         := true
@@ -32,4 +32,3 @@ BOARD_RECOVERYIMAGE_PARTITION_SIZE := 5242880
 BOARD_SYSTEMIMAGE_PARTITION_SIZE   := 1283457024
 BOARD_USERDATAIMAGE_PARTITION_SIZE := 13950255104
 BOARD_FLASH_BLOCK_SIZE             := 131072
-
