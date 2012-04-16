@@ -46,11 +46,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
-PRODUCT_PACKAGES += \
-    com.android.future.usb.accessory \
-    audio.a2dp.default \
-    libaudioutils
-
 $(call inherit-product, build/target/product/full_base.mk)
 
 # inherit t20-common
