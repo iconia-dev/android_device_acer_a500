@@ -29,7 +29,6 @@ lib/hw/hwcomposer.tegra.so
 lib/hw/lights.picasso.so
 lib/hw/sensors.tegra.so
 lib/libardrv_dynamic.so
-lib/libasound.so
 lib/libcgdrv.so
 lib/libmllite.so
 lib/libmlplatform.so
