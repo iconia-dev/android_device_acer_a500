@@ -18,6 +18,7 @@
 include device/acer/t20-common/BoardConfigCommon.mk
 
 TARGET_BOOTLOADER_BOARD_NAME := picasso
+TARGET_OTA_ASSERT_DEVICE := picasso,a500
 
 # kernel
 TARGET_PREBUILT_KERNEL := device/acer/picasso/prebuilt/kernel
