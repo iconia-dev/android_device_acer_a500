@@ -1,7 +1,7 @@
 #!/bin/sh
 
 VENDOR=acer
-DEVICE=picasso
+DEVICE=a500
 
 OUTD=vendor/$VENDOR/$DEVICE
 BLOBMK=../../../$OUTD/$DEVICE-vendor-blobs.mk
@@ -10,7 +10,7 @@ BOARDMK=../../../$OUTD/BoardConfigVendor.mk
 
 for i in $BLOBMK $VENDORMK $BOARDMK; do
 cat << EOF > $i
-# Copyright (C) 2011 The CyanogenMod Project
+# Copyright (C) 2012 The CyanogenMod Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.

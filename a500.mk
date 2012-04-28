@@ -51,7 +51,7 @@ $(call inherit-product, build/target/product/full_base.mk)
 $(call inherit-product, device/acer/t20-common/t20-common.mk)
 
 # inherit proprietary files
-$(call inherit-product-if-exists, vendor/acer/picasso/picasso-vendor.mk)
+$(call inherit-product-if-exists, vendor/acer/a500/a500-vendor.mk)
 
-PRODUCT_DEVICE := picasso
+PRODUCT_DEVICE := a500
 PRODUCT_MODEL  := A500
