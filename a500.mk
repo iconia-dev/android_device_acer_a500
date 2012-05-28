@@ -16,9 +16,8 @@
 
 # ramdisk
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/prebuilt/ramdisk/init.picasso.rc:root/init.picasso.rc \
     $(LOCAL_PATH)/prebuilt/ramdisk/init.picasso.usb.rc:root/init.picasso.usb.rc \
-    $(LOCAL_PATH)/prebuilt/ramdisk/ueventd.picasso.rc:root/ueventd.picasso.rc \
+    $(LOCAL_PATH)/prebuilt/ramdisk/ueventd.picasso.rc:root/ueventd.picasso.rc
 
 # kernel modules
 PRODUCT_COPY_FILES += \
@@ -39,9 +38,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/prebuilt/usr/idc/atmel-maxtouch.idc:system/usr/idc/atmel-maxtouch.idc \
     $(LOCAL_PATH)/prebuilt/usr/keylayout/acer-dock.kl:system/usr/keylayout/acer-dock.kl \
     $(LOCAL_PATH)/prebuilt/usr/keylayout/gpio-keys.kl:system/usr/keylayout/gpio-keys.kl
-
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.dinfo.radio=Wifi
 
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 

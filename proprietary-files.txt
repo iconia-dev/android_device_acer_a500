@@ -80,5 +80,4 @@ lib/libnvtvmr.so
 lib/libnvwinsys.so
 lib/libnvwsi.so
 lib/libstagefrighthw.so
-lib/modules/ufsd.ko
 lib/omxplayer.so
