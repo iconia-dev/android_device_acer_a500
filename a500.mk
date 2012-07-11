@@ -49,5 +49,7 @@ $(call inherit-product, device/acer/t20-common/t20-common.mk)
 # inherit proprietary files
 $(call inherit-product-if-exists, vendor/acer/a500/a500-vendor.mk)
 
+PRODUCT_NAME := a500
 PRODUCT_DEVICE := a500
-PRODUCT_MODEL  := A500
+PRODUCT_BRAND := acer
+PRODUCT_MODEL := Full AOSP on a500
