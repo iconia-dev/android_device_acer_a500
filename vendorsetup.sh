@@ -21,4 +21,5 @@
 # function: add_lunch_combo generic-eng
 
 
-
+add_lunch_combo a500-eng
+add_lunch_combo a500-userdebug
