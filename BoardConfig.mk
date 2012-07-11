@@ -21,10 +21,10 @@ TARGET_BOOTLOADER_BOARD_NAME := picasso
 TARGET_OTA_ASSERT_DEVICE := picasso,a500
 
 # kernel
-TARGET_PREBUILT_KERNEL := device/acer/a500/prebuilt/kernel
+TARGET_PREBUILT_KERNEL := device/acer/a500/kernel
 
-# HC bootloader support (deprecated soon...)
-#BOARD_KERNEL_CMDLINE := mem=1024M@0M vmalloc=256M video=tegrafb console=none debug_uartport=hsport usbcore.old_scheme_first=1 lp0_vec=8192@0x1840c000 tegra_fbmem=8197120@0x3d81c000 brand=acer target_product=a500_ww_gen1 tegraboot=sdmmc gpt gpt_sector=31258623 androidboot.carrier=wifi-only
+#TARGET_KERNEL_SOURCE := kernel/acer/t20-common
+#TARGET_KERNEL_CONFIG := cyanogenmod_picasso_defconfig
 
 BOARD_BOOTIMAGE_PARTITION_SIZE     := 8388608
 BOARD_RECOVERYIMAGE_PARTITION_SIZE := 5242880
